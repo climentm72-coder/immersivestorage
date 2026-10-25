@@ -29,4 +29,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: immersivestorage-jar
-          path: build/libs/*.jar
+          path: |
+            build/libs/*.jar
+            !build/libs/*-dev.jar
+            !build/libs/*-sources.jar
