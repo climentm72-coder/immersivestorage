@@ -23,7 +23,7 @@ jobs:
           gradle-version: '8.5'
 
       - name: Build with Gradle
-        run: gradle build remapJar
+        run: gradle build
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
@@ -33,3 +33,4 @@ jobs:
             build/libs/*.jar
             !build/libs/*-dev.jar
             !build/libs/*-sources.jar
+            !build/libs/*-shadow.jar
