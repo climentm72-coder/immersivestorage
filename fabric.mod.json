@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "immersivestorage",
+  "version": "${version}",
+  "name": "Immersive Storage & Smart Drawers",
+  "description": "Feudal drawers that show their item on the front, smart highlighting of nearby storage and a toggleable controls guide. NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/YourName/immersivestorage",
+    "sources": "https://github.com/YourName/immersivestorage"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.immersivestorage.ImmersiveStorageMod"
+    ],
+    "client": [
+      "com.immersivestorage.client.ImmersiveStorageClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "block.immersivestorage.feudal_drawer": "Feudal Drawer",
+
+  "key.categories.immersivestorage": "Immersive Storage",
+  "key.immersivestorage.highlight": "Highlight Storage With Held Item",
+  "key.immersivestorage.toggle_hud": "Show / Hide Controls Guide",
+
+  "hud.immersivestorage.guide.title": "Immersive Storage",
+  "hud.immersivestorage.guide.highlight": "[%s] Highlight storage holding your item",
+  "hud.immersivestorage.guide.deposit": "Right-click drawer: deposit (empty hand: all)",
+  "hud.immersivestorage.guide.take_one": "Left-click drawer: take 1 item",
+  "hud.immersivestorage.guide.take_stack": "Shift + Left-click drawer: take 1 stack",
+  "hud.immersivestorage.guide.toggle": "[%s] Hide / show this guide",
+
+  "message.immersivestorage.hud.enabled": "Controls guide: ON",
+  "message.immersivestorage.hud.disabled": "Controls guide: OFF (press %s to show it again)",
+
+  "message.immersivestorage.highlight.empty_hand": "Hold an item to highlight where it is stored.",
+  "message.immersivestorage.highlight.none": "No storage with that item within 16 blocks.",
+  "message.immersivestorage.highlight.found": "Highlighted %s container(s) holding that item.",
+
+  "message.immersivestorage.drawer.mismatch": "This drawer holds a different item.",
+  "message.immersivestorage.drawer.full": "This drawer is full."
+}
